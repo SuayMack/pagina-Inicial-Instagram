@@ -16,12 +16,81 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.app-download {
+    height: 4rem;
+    width: 12rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('/assets/img/botaoAppStore.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('/assets/img/botaoGoogleStore.png');
+}
+
+.download {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
-    justify-content: start;
-    width: 60%;
-    height: 100vh;
+    padding: 1rem;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;  
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.group:nth-child(2) {
+    margin-top: .6rem;
+}
+
+.instagram-continue {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;/*Horizontal por causa do flex-direction*/
+    justify-content: space-around;/*vertical por causa do flex-direction*/
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.instagram-login {
+    margin-top: 4rem;
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logo {
+    max-height: 5rem;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
 }
 
 .instagram-phone {
@@ -35,22 +104,36 @@ body {
     height: 50rem;
 }
 
-.instagram-continue {
+.instagram-wrapper {
     display: flex;
-    align-items: center;/*Horizontal por causa do flex-direction*/
-    justify-content: space-around;/*vertical por causa do flex-direction*/
-    flex-direction: collum;
-    width: 50%;
-    min-height: 34rem;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
 }
 
-.group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;  
-    width: 100%;
-    padding: 1.3rem 0;
-    border: 1px solid lightgrey;
+.link-blue {
+    color: #0095f6;
 }
+
+.not-account {
+    color: rgb(160, 160, 160);
+}
+
+.not-account:nth-child(2) {
+    margin-top: .5rem;
+}
+
+.profile-photo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
