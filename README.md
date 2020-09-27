@@ -4,6 +4,9 @@
 
 Fiz algumas alterações na imagem e no css.
 
-![alt text](https://github.com/SuayMack/pagina-Inicial-Instagram/blob/master/assets/img/fotoGitWeb.png)![alt text](https://github.com/SuayMack/pagina-Inicial-Instagram/blob/master/assets/img/fotoGitMobile.png)
+## Tela Web
+![alt text](https://github.com/SuayMack/pagina-Inicial-Instagram/blob/master/assets/img/fotoGitWeb.png)
+## Tela Mobile
+![alt text](https://github.com/SuayMack/pagina-Inicial-Instagram/blob/master/assets/img/fotoGitMobile.png)
 
 
